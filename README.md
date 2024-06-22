@@ -1,40 +1,176 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+## Preview 
+
+![image](https://github.com/lewvi/create-data-from-api/assets/56486124/6cef14ef-767a-49ed-bcd3-ef886ba60cc1)
+
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+{
+  "Engineering": {
+    "male": 2,
+    "female": 2,
+    "ageRange": "26-40",
+    "hair": {
+      "Brown": 1,
+      "White": 1,
+      "Red": 1,
+      "Gray": 1
+    },
+    "addressUser": {
+      "EmilyJohnson": "29112",
+      "AlexanderJones": "86684",
+      "NoahHernandez": "73696",
+      "MadisonCollins": "62091"
+    }
+  },
+  "Support": {
+    "male": 4,
+    "female": 1,
+    "ageRange": "33-45",
+    "hair": {
+      "Green": 1,
+      "Blonde": 2,
+      "Purple": 1,
+      "Blue": 1
+    },
+    "addressUser": {
+      "MichaelWilliams": "38807",
+      "JamesDavis": "68354",
+      "EthanMartinez": "72360",
+      "EvelynSanchez": "43423",
+      "DanielCook": "58781"
+    }
+  },
+  "Research and Development": {
+    "male": 0,
+    "female": 1,
+    "ageRange": "42-42",
+    "hair": {
+      "White": 1
+    },
+    "addressUser": {
+      "SophiaBrown": "32822"
+    }
+  },
+  "Human Resources": {
+    "male": 0,
+    "female": 2,
+    "ageRange": "28-30",
+    "hair": {
+      "White": 1,
+      "Blue": 1
+    },
+    "addressUser": {
+      "EmmaMiller": "26593",
+      "AbigailRivera": "11407"
+    }
+  },
+  "Product Management": {
+    "male": 0,
+    "female": 2,
+    "ageRange": "22-29",
+    "hair": {
+      "Gray": 1,
+      "Purple": 1
+    },
+    "addressUser": {
+      "OliviaWilson": "83843",
+      "LilyLee": "41540"
+    }
+  },
+  "Marketing": {
+    "male": 1,
+    "female": 2,
+    "ageRange": "27-32",
+    "hair": {
+      "Red": 1,
+      "Blonde": 1,
+      "Gray": 1
+    },
+    "addressUser": {
+      "AvaTaylor": "24771",
+      "IsabellaAnderson": "89352",
+      "WilliamGonzalez": "78243"
+    }
+  },
+  "Services": {
+    "male": 2,
+    "female": 1,
+    "ageRange": "29-38",
+    "hair": {
+      "Red": 1,
+      "Black": 1,
+      "Blonde": 1
+    },
+    "addressUser": {
+      "LiamGarcia": "57252",
+      "HenryHill": "81783",
+      "AddisonWright": "54698"
+    }
+  },
+  "Accounting": {
+    "male": 1,
+    "female": 4,
+    "ageRange": "24-36",
+    "hair": {
+      "Purple": 2,
+      "Gray": 1,
+      "Green": 1,
+      "Black": 1
+    },
+    "addressUser": {
+      "MiaRodriguez": "41810",
+      "CharlotteLopez": "42044",
+      "AveryPerez": "30973",
+      "MateoNguyen": "20673",
+      "EvelynGonzalez": "84898"
+    }
+  },
+  "Training": {
+    "male": 1,
+    "female": 0,
+    "ageRange": "31-31",
+    "hair": {
+      "Green": 1
+    },
+    "addressUser": {
+      "LoganTorres": "78805"
+    }
+  },
+  "Legal": {
+    "male": 2,
+    "female": 1,
+    "ageRange": "27-34",
+    "hair": {
+      "Red": 2,
+      "Purple": 1
+    },
+    "addressUser": {
+      "JacksonEvans": "26600",
+      "ElijahStewart": "31585",
+      "HarperKelly": "69521"
+    }
+  },
+  "Sales": {
+    "male": 0,
+    "female": 1,
+    "ageRange": "39-39",
+    "hair": {
+      "Red": 1
+    },
+    "addressUser": {
+      "ChloeMorales": "54972"
+    }
+  }
+}
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Contact
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Name : Natthakun Audomjirachot
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Email : natthakun.au@gmail.com
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Tel : 093 548 3653
