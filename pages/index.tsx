@@ -96,8 +96,8 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="p-24">
-      <div className="p-5 rounded-md bg-neutral-100 h-[500px] overflow-y-auto">
+    <div className="p-8">
+      <div className="p-5 rounded-md bg-neutral-100 h-[600px] overflow-y-auto">
         <pre>{JSON.stringify(groupData, null, 2)}</pre>
       </div>
     </div>
