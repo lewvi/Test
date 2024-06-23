@@ -173,4 +173,3 @@ Name : Natthakun Audomjirachot
 
 Email : natthakun.au@gmail.com
 
-Tel : 093 548 3653
